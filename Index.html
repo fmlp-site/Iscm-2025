@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Vestibulares</title>
+    <style>
+        /* Estilos Globais */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            padding: 10px 20px;
+            color: white;
+            background-color: #0055a5;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #0072ce;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        /* Slider */
+        .slider {
+            position: relative;
+            overflow: hidden;
+            margin: 20px 0;
+        }
+
+        .slider img {
+            width: 100%;
+            display: block;
+        }
+
+        /* Cronograma */
+        .cronograma {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+        }
+
+        .cronograma h2 {
+            margin-bottom: 15px;
+            color: #003366;
+        }
+
+        .cronograma ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .cronograma ul li {
+            background-color: #f9f9f9;
+            padding: 10px 15px;
+            border: 1px solid #ddd;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        /* Editais */
+        .editais {
+            margin: 20px 0;
+        }
+
+        .editais h2 {
+            color: #003366;
+            margin-bottom: 15px;
+        }
+
+        .editais ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .editais ul li {
+            margin-bottom: 10px;
+        }
+
+        .editais ul li a {
+            color: #0055a5;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .editais ul li a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #003366;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Sistema de Vestibulares</h1>
+    </header>
+
+    <!-- Botões do Portal -->
+    <nav>
+        <a href="candidato.html">Portal do Candidato</a>
+        <a href="admin.html">Portal do Administrador</a>
+    </nav>
+
+    <div class="container">
+        <!-- Slider -->
+        <div class="slider">
+            <img src="https://via.placeholder.com/1200x400" alt="Slide 1">
+        </div>
+
+        <!-- Cronograma -->
+        <div class="cronograma">
+            <h2>Cronograma</h2>
+            <ul>
+                <li>10/12/2024 - Início das Inscrições</li>
+                <li>20/12/2024 - Término das Inscrições</li>
+                <li>05/01/2025 - Divulgação do Local de Prova</li>
+                <li>15/01/2025 - Aplicação das Provas</li>
+                <li>30/01/2025 - Divulgação dos Resultados</li>
+            </ul>
+        </div>
+
+        <!-- Editais -->
+        <div class="editais">
+            <h2>Editais</h2>
+            <ul>
+                <li><a href="edital1.pdf" target="_blank">Edital 01/2024 - Inscrições</a></li>
+                <li><a href="edital2.pdf" target="_blank">Edital 02/2024 - Locais de Prova</a></li>
+                <li><a href="edital3.pdf" target="_blank">Edital 03/2024 - Resultados</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Sistema de Vestibulares. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
